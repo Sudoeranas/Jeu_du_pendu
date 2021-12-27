@@ -27,7 +27,6 @@ int main(int argc, char **argv[]){
 		puts(chaine_mystere);
 		printf("\nProposez une lettre : ");
 		gets(lettre);
-		// tout rendre minuscule ou majuscule
 		for (int j=0;j<longueur;j++){
 			if (lettre[0]==chaine[j]){
 				chaine_mystere[j]=lettre[0];
